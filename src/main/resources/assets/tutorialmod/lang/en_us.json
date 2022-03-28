@@ -4,7 +4,7 @@
   "item.tutorialmod.dowsing_rod" : "Dowsing Rod",
   "item.tutorialmod.cucumber": "Cucumber",
   "item.tutorialmod.magic_cucumber": "Magical Cucumber",
-  "item.tutorialmod.magic_cucumber": "coal Coke",
+  "item.tutorialmod.coal_coke": "coal Coke",
 
 
   "block.tutorialmod.citrine_block": "Citrine Block",
@@ -18,5 +18,9 @@
 
   "itemGroup.tutorialtab": "Tutorial Mod",
 
-  "item.tutorialmod.dowsing_rod.no_valuables": "No valuables Found!"
+  "item.tutorialmod.dowsing_rod.no_valuables": "No valuables Found!",
+
+  "tooltip.tutorialmod.dowsing_rod.tooltip.shift": "Right click to find valuables",
+  "tooltip.tutorialmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Informations!",
+  "tooltip.tutorialmod.block.speedy_block": "I am speed!"
 }

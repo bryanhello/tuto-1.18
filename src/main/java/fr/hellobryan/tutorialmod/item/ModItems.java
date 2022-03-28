@@ -29,7 +29,7 @@ public class ModItems {
     public static final RegistryObject<Item> MAGICAL_CUCUMBER = ITEMS.register("magical_cucumber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).food(ModFoods.MAGICAL_CUCUMBER)));
 
-    public static final RegistryObject<Item> COAL_COKE= ITEMS.register("coale_coke",
+    public static final RegistryObject<Item> COAL_COKE= ITEMS.register("coal_coke",
             () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus){
