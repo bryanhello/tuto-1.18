@@ -1,6 +1,7 @@
 package fr.hellobryan.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import fr.hellobryan.tutorialmod.block.ModBlocks;
 import fr.hellobryan.tutorialmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class TutorialMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         //test
