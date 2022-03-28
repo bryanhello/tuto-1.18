@@ -1,6 +1,7 @@
 package fr.hellobryan.tutorialmod.block;
 
 import fr.hellobryan.tutorialmod.TutorialMod;
+import fr.hellobryan.tutorialmod.block.custom.SpeedyBlock;
 import fr.hellobryan.tutorialmod.item.ModCreativeModeTab;
 import fr.hellobryan.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -45,7 +46,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
-
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
