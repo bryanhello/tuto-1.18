@@ -35,7 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
             () -> new SwordItem(ModTiers.CITRINE, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
-    public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
+    public static final RegistryObject<PickaxeItem> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
             () -> new PickaxeItem(ModTiers.CITRINE, 1, 1f,
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> CITRINE_SHOVEL = ITEMS.register("citrine_shovel",
