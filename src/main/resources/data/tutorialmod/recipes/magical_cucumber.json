@@ -15,6 +15,7 @@
     }
   },
   "result": {
-    "item": "tutorialmod:magical_cucumber"
+    "item": "tutorialmod:magical_cucumber",
+    "count": 8
   }
 }
