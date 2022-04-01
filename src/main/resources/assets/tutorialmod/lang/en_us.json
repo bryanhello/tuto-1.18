@@ -9,6 +9,8 @@
   "item.tutorialmod.citrine_chestplate": "Citrine Chestplate",
   "item.tutorialmod.citrine_leggings": "Citrine Leggings",
   "item.tutorialmod.citrine_boots": "Citrine Boots",
+  "item.tutorialmod.magic_dust": "Magic Dust",
+  "item.tutorialmod.cucumber_seeds": "Cucumber Seeds",
 
 
 
@@ -30,8 +32,20 @@
   "block.tutorialmod.citrine_pressure_plate": "Citrine Pressure Plate",
   "block.tutorialmod.ebony_door": "Ebony Door",
   "block.tutorialmod.ebony_trapdoor": "Ebony Trapdoor",
+  "block.tutorialmod.ebony_log": "Ebony Log",
+  "block.tutorialmod.ebony_planks": "Ebony Planks",
+  "block.tutorialmod.ebony_wood": "Ebony Wood",
+  "block.tutorialmod.stripped_ebony_log": "Stripped Ebony Log",
+  "block.tutorialmod.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.tutorialmod.ebony_sapling": "Ebony Sapling",
+  "block.tutorialmod.ebony_leaves": "Ebony Leaves",
+
+  "block.tutorialmod.pink_rose": "Pink Rose",
+  "block.tutorialmod.potted_pink_rose": "Potted Pink Rose",
 
   "itemGroup.tutorialtab": "Tutorial Mod",
+
+  "block.tutorialmod.cucumber_plant": "Cucumber Plant",
 
   "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found!",
   "tooltip.tutorialmod.dowsing_rod.tooltip.shift": "Right Click to find Valuables!",

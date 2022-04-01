@@ -2,6 +2,7 @@ package fr.hellobryan.tutorialmod.item;
 
 
 import fr.hellobryan.tutorialmod.TutorialMod;
+import fr.hellobryan.tutorialmod.block.ModBlocks;
 import fr.hellobryan.tutorialmod.item.custom.CoalCokeItem;
 import fr.hellobryan.tutorialmod.item.custom.DowsingRodItem;
 import fr.hellobryan.tutorialmod.item.custom.LevitationSwordItem;
@@ -66,6 +67,13 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
 
+    public static final RegistryObject<Item> MAGIC_DUST = ITEMS.register("magic_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
+
+    public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CUCUMBER_PLANT.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
